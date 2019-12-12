@@ -1,0 +1,87 @@
+{
+  "header": {
+    "title": "Page Title",
+    "author": "Lee Nattress",
+    "meta": {
+      "og:title": "Page Title",
+      "og:type": "website",
+      "og:image": "opengraph_image.jpg"
+    }
+  },
+  "body": [ 
+   { 
+      "css":"header bg-dark text-white",
+      "children":[ 
+         { 
+            "css":"container",
+            "children":[ 
+               { 
+                  "css":"row",
+                  "children":[ 
+                     { 
+                        "css":"col-12 mt-2",
+                        "type":"alert",
+                        "data":{ 
+                           "title":"Success",
+                           "content":"This is awesome! a component of type: alert.",
+                           "css":"alert-success"
+                        }
+                     },
+                     { 
+                        "css":"col-12",
+                        "html":"<h2 class='display-3 mt-4 mb-5'>Web Component Experiment</h2>"
+                     },
+                     { 
+                        "css":"col-12",
+                        "html":"<h3 class='h3 mb-5'>HTML From JSON...</h2>"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   { 
+      "css":"content mt-5",
+      "children":[ 
+         { 
+            "css":"container",
+            "children":[ 
+               { 
+                  "css":"row",
+                  "children":[ 
+                     { 
+                        "css":"col-9",
+                        "html":"<h4>H4</h4>"
+                     },
+                     { 
+                        "css":"col-3",
+                        "html":"<img src='https://picsum.photos/500' class='img-fluid' /><p class='text-muted'>This is the side bit, off to the side, a bit.</p>"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   { 
+      "css":"footer bg-dark text-white",
+      "children":[ 
+         { 
+            "css":"container",
+            "children":[ 
+               { 
+                  "css":"row",
+                  "children":[ 
+                     { 
+                        "css":"col-12 pt-2 mt-2",
+                        "html":"<p>This is the footer, delightful is it not?</p>"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+]
+}

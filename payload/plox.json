@@ -1,0 +1,12 @@
+{
+  "title": "My New Plox Site",
+  "theme": "bravest",
+  "themeData": {
+    "headerOverlayColour": "rgba(59, 48, 84, 0.6)"
+  },
+  "menu": {
+    "Home": "/",
+    "Github": "https://github.com/leenattress/plox",
+    "NPM": "https://www.npmjs.com/package/plox"
+  }
+}
